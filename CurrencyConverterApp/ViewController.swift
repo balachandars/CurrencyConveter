@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     var currencyRateDoubleValue : Double = 1.0
     var finalCurrencyrate : Double = 0.0
     private let refreshControl = UIRefreshControl()
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
